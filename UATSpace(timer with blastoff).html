@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+</html>
+<head>
+     </title>UATSpace - Homepage</title>
+     <script src="code.js"></script>
+</head>
+
+<body>
+     <h1> Welcome!</h1>
+     
+     <img left src="UATspacelogo-1.jpg">
+
+     <p> The UAT space center is a proud organization that leads studends on the path of creativity and ingeuity.<br>
+          At the UAT space program, students will focus on realy world projects closely with their professors and
+          <br>other students. </p>
+     <br>
+     <br>
+<input type=button id=btnStart value="start" onclick="startButtonClick();"></button>
+<input type=button id=btnStop value="stop" disabled=true onclick="stopButtonClick();"></button>
+
+<p>
+     Countdown: <span id="DisplayCountdown"> Ready for takeoff</span>
+</p>
+<script>
+
+     getUserInput();
+     let pageElement = document.getElementById("DisplayCountdown");
+     runTimer (pageElement);
+
+       
+</script>
+     
+
+
+</body>
+</html>
